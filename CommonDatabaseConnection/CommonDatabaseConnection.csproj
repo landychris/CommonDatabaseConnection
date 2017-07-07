@@ -83,11 +83,6 @@
     <Compile Include="sqlHelper\OracleHelper.cs" />
     <Compile Include="sqlHelper\SqlHelper.cs" />
     <Compile Include="sqlHelper\SqlServerHelper.cs" />
-    <Compile Include="XHFDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>XHFDataSet.xsd</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -110,17 +105,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="XHFDataSet.xsc">
-      <DependentUpon>XHFDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="XHFDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>XHFDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="XHFDataSet.xss">
-      <DependentUpon>XHFDataSet.xsd</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
